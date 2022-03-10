@@ -29,17 +29,14 @@ public class SelectDataFromDB {
 		ResultSet resultset=stat.executeQuery(query);
 		while(resultset.next()){
 			System.out.println(resultset.getString(1)+"\t"+resultset.getString(2)+"\t"+resultset.getString(3)+"\t"+resultset.getString(4));
+		}			
 		}
-			
-		}
-		catch(Exception e) {
-			
+		catch(Exception e) {			
 		}
 		finally {
 			conn.close();
 			System.out.println("-----------connection closed---------");
-		}
-				
+		}				
 	}
 
 }

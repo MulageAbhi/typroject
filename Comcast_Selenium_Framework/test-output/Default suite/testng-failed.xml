@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.comcast.organizationtest.OrganizationTest">
+      <class name="practice.SampleListener">
         <methods>
+          <include name="contest"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configAS"/>
           <include name="configAC"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="CreatOrgWithIndustryTest"/>
         </methods>
-      </class> <!-- com.vtiger.comcast.organizationtest.OrganizationTest -->
+      </class> <!-- practice.SampleListener -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

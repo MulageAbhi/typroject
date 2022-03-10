@@ -1,59 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-24T18:20:55 IST" name="Default suite" finished-at="2022-01-24T18:22:06 IST" duration-ms="70993">
+  <suite started-at="2022-03-10T11:24:33 IST" name="Default suite" finished-at="2022-03-10T11:25:18 IST" duration-ms="45417">
     <groups>
       <group name="SmokeTest">
-        <method signature="ContactTest.creatContactTest()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" name="creatContactTest" class="com.vtiger.comcast.contactstest.ContactTest"/>
+        <method signature="OrganizationTest.CreateOrganizationTest()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" name="CreateOrganizationTest" class="com.vtiger.comcast.organizationtest.OrganizationTest"/>
       </group> <!-- SmokeTest -->
-      <group name="RegressionTest">
-        <method signature="ContactTest.creatContactWithOrgTest()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" name="creatContactWithOrgTest" class="com.vtiger.comcast.contactstest.ContactTest"/>
-      </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2022-01-24T18:20:55 IST" name="Default test" finished-at="2022-01-24T18:22:06 IST" duration-ms="70993">
-      <class name="com.vtiger.comcast.contactstest.ContactTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:20:55 IST" name="configBS" finished-at="2022-01-24T18:20:55 IST" duration-ms="14" status="PASS">
+    <test started-at="2022-03-10T11:24:33 IST" name="Default test" finished-at="2022-03-10T11:25:18 IST" duration-ms="45417">
+      <class name="com.vtiger.comcast.organizationtest.OrganizationTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:24:33 IST" name="configBS" finished-at="2022-03-10T11:24:33 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:20:55 IST" name="configBC" finished-at="2022-01-24T18:21:02 IST" duration-ms="7137" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:24:33 IST" name="configBC" finished-at="2022-03-10T11:24:38 IST" duration-ms="4978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:21:02 IST" name="configBM" finished-at="2022-01-24T18:21:07 IST" duration-ms="4393" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:24:38 IST" name="configBM" finished-at="2022-03-10T11:24:42 IST" duration-ms="4244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="creatContactTest()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:21:07 IST" name="creatContactTest" finished-at="2022-01-24T18:21:25 IST" duration-ms="18325" status="PASS">
+        <test-method signature="CreateOrganizationTest()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:24:42 IST" name="CreateOrganizationTest" finished-at="2022-03-10T11:25:16 IST" duration-ms="33603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creatContactTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:21:25 IST" name="configAM" finished-at="2022-01-24T18:21:27 IST" duration-ms="2170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:21:27 IST" name="configBM" finished-at="2022-01-24T18:21:31 IST" duration-ms="3571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="creatContactWithOrgTest()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:21:31 IST" name="creatContactWithOrgTest" finished-at="2022-01-24T18:22:03 IST" duration-ms="32800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatContactWithOrgTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:22:03 IST" name="configAM" finished-at="2022-01-24T18:22:05 IST" duration-ms="1988" status="PASS">
+        </test-method> <!-- CreateOrganizationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:25:16 IST" name="configAM" finished-at="2022-03-10T11:25:18 IST" duration-ms="2139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:22:05 IST" name="configAC" finished-at="2022-01-24T18:22:06 IST" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:25:18 IST" name="configAC" finished-at="2022-03-10T11:25:18 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.vtiger.comcast.contactstest.ContactTest@1e04fa0a]" started-at="2022-01-24T18:22:06 IST" name="configAS" finished-at="2022-01-24T18:22:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.vtiger.comcast.organizationtest.OrganizationTest@bae7dc0]" started-at="2022-03-10T11:25:18 IST" name="configAS" finished-at="2022-03-10T11:25:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.vtiger.comcast.contactstest.ContactTest -->
+      </class> <!-- com.vtiger.comcast.organizationtest.OrganizationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
